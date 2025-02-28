@@ -1,4 +1,5 @@
 import LandingPage from "./components/landingpage";
+import FirstAdd from "./components/firstadd";
 
 export default function HomePage() {
 
@@ -6,7 +7,16 @@ export default function HomePage() {
         <div>
 
             <LandingPage/>
-            <p>hellp</p>
+            
+
+
+                return(
+                    <div>
+                        <LandingPage/>
+                        <FirstAdd/>
+                    </div> 
+                )
+            
         </div> 
     )
 }
