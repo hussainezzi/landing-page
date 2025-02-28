@@ -1,22 +1,20 @@
 import LandingPage from "./components/landingpage";
-import FirstAdd from "./components/firstadd";
+import FirstAdd from "./components/FirstAdd";
 
+import SecondAdd from "./components/SecondAdd";
 export default function HomePage() {
 
-    return(
-        <div>
-
-            <LandingPage/>
-            
+    
 
 
                 return(
                     <div>
                         <LandingPage/>
+                        <SecondAdd/>
                         <FirstAdd/>
                     </div> 
                 )
             
-        </div> 
-    )
+      
+    
 }

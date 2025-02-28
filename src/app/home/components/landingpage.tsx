@@ -45,10 +45,9 @@ export default function LandingPage() {
 
         {/* Right Illustration */}
         <div className="w-full md:w-1/2 flex justify-center">
-          {/* Replace with your own image path */}
           <img
-            src="/hero-illustration.png"
-            alt="Product Illustration"
+            src="https://img.icons8.com/clouds/400/000000/workplace.png"
+            alt="Workplace Icon"
             className="max-w-sm md:max-w-md"
           />
         </div>
