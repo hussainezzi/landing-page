@@ -6,6 +6,7 @@ export default function HomePage() {
         <div>
 
             <LandingPage/>
-        </div>
+            <p>hellp</p>
+        </div> 
     )
 }
