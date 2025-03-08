@@ -46,9 +46,9 @@ export default function LandingPage() {
         {/* Right Illustration */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img
-            src="https://img.icons8.com/clouds/400/000000/workplace.png"
-            alt="Workplace Icon"
-            className="max-w-sm md:max-w-md"
+            src="https://img.icons8.com/3d-fluency/1000/workspace.png"
+            alt="Modern Workplace 3D Illustration"
+            className="max-w-sm md:max-w-md w-full h-auto"
           />
         </div>
       </main>

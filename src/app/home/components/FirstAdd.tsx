@@ -12,8 +12,8 @@ export default function FirstAdd() {
         <div className="md:w-1/2 flex justify-center">
           {/* Replace with your actual image path */}
           <Image
-            src="/illustration.png"
-            alt="App illustration"
+            src="https://img.icons8.com/3d-fluency/1000/analytics.png"
+            alt="Business Analysis Illustration"
             width={400}
             height={400}
             className="object-contain"

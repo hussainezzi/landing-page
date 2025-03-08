@@ -3,6 +3,7 @@ import FirstAdd from "./components/FirstAdd";
 
 import SecondAdd from "./components/SecondAdd";
 import ThirdAdd from "./components/ThirdAdd";
+import Footer from "./components/Footer";
 export default function HomePage() {
 
     
@@ -14,6 +15,7 @@ export default function HomePage() {
                         <SecondAdd/>
                         <FirstAdd/>
                         <ThirdAdd/>
+                        <Footer/>
                     </div> 
                 )
             

@@ -7,6 +7,7 @@ import {
   CardDescription,
   CardContent,
 } from "@/components/ui/card"
+import Image from "next/image"
 
 // (Optional) Lucide icons for the feature blocks
 import { Lightbulb, Package } from "lucide-react"
@@ -70,9 +71,11 @@ export default function SecondAdd() {
 
         {/* Right: Nature Image from Unsplash */}
         <div className="md:w-1/3 flex justify-center">
-          <img
-            src="https://images.unsplash.com/photo-1535909339361-3a22c38c2d7e?ixlib=rb-4.0.3&ixid=MnwyMzI4NHwwfDF8c2VhcmNofDF8fG5hdHVyZSUyMGxhbmRzY2FwZXxlbnwwfHx8fDE2Nzg5ODk1NzI&auto=format&fit=crop&w=800&q=60"
-            alt="Nature scene"
+          <Image
+            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&auto=format&fit=crop&q=80"
+            alt="Business Growth Chart"
+            width={400}
+            height={400}
             className="object-contain w-full h-auto max-w-sm"
           />
         </div>
